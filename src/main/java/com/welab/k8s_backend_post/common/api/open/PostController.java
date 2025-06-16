@@ -24,8 +24,8 @@ public class PostController {
         return ApiResponseDto.defaultOk();
     }
 
-    @PostMapping(value = "/post/comment")
-    public ApiResponseDto<String> addComment(@RequestBody @Valid PostCommentCreateDto dto) {postService.addPostComment(dto);
-        return ApiResponseDto.defaultOk();
-    }
+//    @PostMapping(value = "/post/comment")
+//    public ApiResponseDto<String> addComment(@RequestBody @Valid PostCommentCreateDto dto) {postService.addPostComment(dto);
+//        return ApiResponseDto.defaultOk();
+//    }
 }
