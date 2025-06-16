@@ -18,4 +18,4 @@ spring:
     show-sql: true
     open-in-view: false
   kafka:
-    bootstrap-servers: localvhost:9092
+    bootstrap-servers: localhost:9092
