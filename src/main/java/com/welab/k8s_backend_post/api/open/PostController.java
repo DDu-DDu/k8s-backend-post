@@ -1,4 +1,4 @@
-package com.welab.k8s_backend_post.common.api.open;
+package com.welab.k8s_backend_post.api.open;
 
 import com.welab.k8s_backend_post.common.dto.ApiResponseDto;
 import com.welab.k8s_backend_post.domain.dto.PostCommentCreateDto;
