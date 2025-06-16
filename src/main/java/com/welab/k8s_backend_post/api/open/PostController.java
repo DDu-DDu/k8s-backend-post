@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/api/post/v1", produces = MediaType.APPLICATION_JSON_VALUE)@RequiredArgsConstructor
+@RequestMapping(value = "/api/post/v1", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequiredArgsConstructor
 public class PostController {
     private final PostService postService;
 
